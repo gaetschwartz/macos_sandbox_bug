@@ -1,0 +1,28 @@
+name: macos_sandbox_bug
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  device_calendar:
+    git:
+      url: https://github.com/builttoroam/device_calendar.git
+      ref: 7453c642713a517386e46b45e76cf837721af549
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
